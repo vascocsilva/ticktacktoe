@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < gameB.getChildCount(); i++) {
             ImageView img = (ImageView) gameB.getChildAt(i);
-            img.setImageResource(android.R.color.transparent);
+            img.setImageResource(0);
         }
     }
 
